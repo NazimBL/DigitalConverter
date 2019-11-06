@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="20dp"
+    android:paddingTop="40dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context="com.e_monsite.nazim_app.binazim.Activity2">
+
+    <TextView android:text="Hello World"
+        android:layout_width="fill_parent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_marginTop="40dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Number to be converted"
+        android:gravity="center"
+        android:id="@+id/nomro"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        />
+
+    <TextView
+        android:text="Converted Value"
+        android:id="@+id/id1"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

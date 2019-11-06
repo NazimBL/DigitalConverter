@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.e_monsite.nazim_app.binazim.Beta"
+    tools:showIn="@layout/activity_beta">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_height="wrap_content"
+            android:text="   Binary To Decimal   "
+            android:layout_gravity="center"
+            style="@style/main_buttons"
+            android:id="@+id/binToDec"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id01"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="  Decimal  To  Binary  "
+            style="@style/main_buttons"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            style="@style/main_buttons"
+            android:text="   Decimal   To   Hexa   "
+            android:id="@+id/b3"/>
+        <Button
+            android:layout_width="wrap_content"
+            style="@style/main_buttons"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id4"
+            android:text="All-Bases To Decimal"
+            android:layout_gravity="center"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/id5"
+            style="@style/main_buttons"
+            android:layout_gravity="center"
+            android:text="Decimal To All-Bases"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
